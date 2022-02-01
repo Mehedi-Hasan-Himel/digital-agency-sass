@@ -44,7 +44,6 @@ ul {
   }
   // padding bottom end
 
-
   // margin top start
   .mt-#{$var * 10} {
     margin-top: $var * 10px;
@@ -59,3 +58,10 @@ ul {
 }
 
 // margin and padding end
+
+$list: left, center, right, justify;
+@each $var in $list {
+  .text-#{$var} {
+    text-align: $var;
+  }
+}

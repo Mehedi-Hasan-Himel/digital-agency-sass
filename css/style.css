@@ -185,6 +185,22 @@ ul {
   margin-bottom: 100px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
