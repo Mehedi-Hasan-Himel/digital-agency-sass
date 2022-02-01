@@ -1,8 +1,22 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,OAAO,CAAC,iGAAI;ADAZ,AAAA,CAAC,CAAA;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACxB;;ACHD,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAClB",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "base/_all-base.scss",
+        "base/_common.scss",
+        "base/_typography.scss",
+        "base/_color.scss",
+        "layouts/_all-layouts.scss",
+        "layouts/_header.scss",
+        "layouts/_banner.scss",
+        "layouts/_about.scss",
+        "layouts/_services.scss",
+        "layouts/_portfolio.scss",
+        "layouts/_cta.scss",
+        "layouts/_blog.scss",
+        "layouts/_contract.scss",
+        "layouts/_footer.scss"
     ],
     "names": [],
     "file": "style.css"
