@@ -1,5 +1,61 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+// import files link start
+@import "color";
+// import files link end
+
+// common style code start
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+img {
+  min-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+// common style code end
+
+// margin and padding start
+
+@for $var from 1 through 10 {
+  // padding top start
+  .pt-#{$var * 10} {
+    padding-top: $var * 10px;
+  }
+  // padding top end
+
+  // padding bottom start
+  .pb-#{$var * 10} {
+    padding-bottom: $var * 10px;
+  }
+  // padding bottom end
+
+
+  // margin top start
+  .mt-#{$var * 10} {
+    margin-top: $var * 10px;
+  }
+  // margin top end
+
+  // margin bottom start
+  .mb-#{$var * 10} {
+    margin-bottom: $var * 10px;
+  }
+  // margin bottom end
+}
+
+// margin and padding end
