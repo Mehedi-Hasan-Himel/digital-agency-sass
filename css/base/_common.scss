@@ -13,10 +13,15 @@
   width: 1200px;
   margin: 0 auto;
 }
-
+.fix::before, .fix::after{
+   content: "";
+   clear: both;
+   display: table;
+}
 a {
   text-decoration: none;
   color: $black;
+  transition: .3s;
 }
 
 img {
