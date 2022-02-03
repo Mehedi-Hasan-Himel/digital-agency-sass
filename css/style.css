@@ -308,15 +308,15 @@ body {
   color: #ff7720;
 }
 
-.banner-content {
+.banner_content {
   color: #fff;
 }
 
-.banner-content h2 {
+.banner_content h2 {
   font-size: 45px;
 }
 
-.banner-content p {
+.banner_content p {
   min-width: 500x;
   margin: 30px auto;
 }
