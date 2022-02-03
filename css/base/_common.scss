@@ -13,15 +13,16 @@
   width: 1200px;
   margin: 0 auto;
 }
-.fix::before, .fix::after{
-   content: "";
-   clear: both;
-   display: table;
+.fix::before,
+.fix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 a {
   text-decoration: none;
   color: $black;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 img {
@@ -33,6 +34,55 @@ ul {
   list-style: none;
 }
 // common style code end
+
+// Background CSS Start
+.bg {
+  background-position: center;
+  box-sizing: cover;
+  position: relative;
+  z-index: 2;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $black;
+    opacity: 0.75;
+    z-index: -1;
+  }
+}
+// Background CSS End
+
+// Button CSS start
+.btn {
+  padding: 10px 40px;
+  margin: 30px 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 3px;
+  color: $white;
+  &.box_btn {
+    background-color: $primary_color;
+    transition: 0.3s;
+    &:hover {
+      background-color: transparent;
+      border: 2px solid $primary_color;
+      padding: 8px 40px;
+    }
+  }
+  &.border_btn {
+    border: 2px solid $primary_color;
+    padding: 8px 40px;
+    transition: 0.3s;
+    &:hover {
+      background-color: $primary_color;
+    }
+  }
+}
+// Button CSS end
 
 // margin and padding start
 
