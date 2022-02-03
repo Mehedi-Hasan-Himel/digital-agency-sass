@@ -8,9 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  // background-color: $white;
-}
+
 .main {
   width: 1200px;
   margin: 0 auto;
@@ -81,10 +79,36 @@ ul {
     transition: 0.3s;
     &:hover {
       background-color: $primary_color;
+      color: $white;
     }
   }
 }
 // Button CSS end
+
+// Section title start
+  .section_title{
+    margin-bottom: 60px;
+    h4{
+      text-transform: capitalize;
+      font-size: 45px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 25px;
+      &::before{
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: $primary_color ;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+
+      }
+    }
+  }
+// Section title end
 
 // margin and padding start
 

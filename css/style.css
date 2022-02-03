@@ -85,6 +85,32 @@ ul {
 
 .btn.border_btn:hover {
   background-color: #ff7720;
+  color: #fff;
+}
+
+.section_title {
+  margin-bottom: 60px;
+}
+
+.section_title h4 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+.section_title h4::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #ff7720;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .pt-10 {
@@ -319,5 +345,31 @@ body {
 .banner_content p {
   min-width: 500x;
   margin: 30px auto;
+}
+
+.single_about {
+  border: 1px solid #333;
+  padding: 40px 20px;
+  float: left;
+  width: 380px;
+  margin-right: 30px;
+}
+
+.single_about:last-child {
+  margin-right: 0;
+}
+
+.single_about h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.single_about p {
+  margin: 20px 0;
+}
+
+.single_about a {
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */

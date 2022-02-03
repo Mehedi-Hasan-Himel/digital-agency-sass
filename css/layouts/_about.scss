@@ -1,0 +1,21 @@
+.single_about {
+  border: 1px solid $black;
+  padding: 40px 20px;
+  float: left;
+  width: 380px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  h4{
+     text-transform: capitalize;
+     font-size: 26px;
+     font-weight: 500;
+  }
+  p{
+     margin: 20px 0;
+  }
+  a{
+     color: $black;
+  }
+}
