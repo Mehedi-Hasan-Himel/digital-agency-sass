@@ -87,31 +87,33 @@ ul {
 // Button CSS end
 
 // Section title start
-  .section_title{
-    margin-bottom: 60px;
-    h4{
-      text-transform: capitalize;
-      font-size: 45px;
-      position: relative;
-      display: inline-block;
-      margin-bottom: 20px;
-      padding-bottom: 25px;
-      &::before{
-        position: absolute;
-        content: "";
-        width: 100px;
-        height: 2px;
-        background-color: $primary_color ;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%);
-
-      }
+.section_title {
+  margin-bottom: 60px;
+  h4 {
+    text-transform: capitalize;
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: $primary_color;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
     }
   }
+}
 // Section title end
 
-
+.section_pera{
+  width: 500px;
+  margin: 0 auto;
+}
 
 // margin and padding start
 
@@ -143,9 +145,11 @@ ul {
 
 // margin and padding end
 
+// Content Align start
 $list: left, center, right, justify;
 @each $var in $list {
   .text-#{$var} {
     text-align: $var;
   }
 }
+// Content Align end

@@ -113,6 +113,11 @@ ul {
           transform: translate(-50%);
 }
 
+.section_pera {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .pt-10 {
   padding-top: 10px;
 }
