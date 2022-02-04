@@ -1,0 +1,27 @@
+@import "../base/_color.scss" ;
+
+.single_portfolio{
+   height: 250px;
+   background-size: cover;
+   background-position: center;
+   float: left;
+   margin-right: 30px;
+   width: 370px;
+   margin-bottom: 30px;
+   position: relative;
+   &:last-child{
+      margin-right: 0;
+   }
+   h4{
+      background-color: $black ;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: $white;
+      text-align: center;
+      padding: 20px;
+      font-size: 22px;
+      text-transform: capitalize;
+   }
+}
