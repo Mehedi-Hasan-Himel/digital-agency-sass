@@ -348,7 +348,7 @@ body {
 }
 
 .single_about {
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   padding: 40px 20px;
   float: left;
   width: 380px;
@@ -371,5 +371,9 @@ body {
 
 .single_about a {
   color: #333;
+}
+
+.services_area {
+  background-color: #f2f2f2;
 }
 /*# sourceMappingURL=style.css.map */
