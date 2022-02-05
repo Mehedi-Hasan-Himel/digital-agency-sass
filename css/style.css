@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main {
@@ -37,7 +37,7 @@ ul {
 .bg {
   background-position: center;
   -webkit-box-sizing: cover;
-          box-sizing: cover;
+  box-sizing: cover;
   position: relative;
   z-index: 2;
 }
@@ -110,7 +110,7 @@ ul {
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
 }
 
 .section_pera {
@@ -399,8 +399,8 @@ body {
 .single_service:hover i {
   background-color: #153084;
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .single_service:last-child {
@@ -462,7 +462,7 @@ body {
 
 .single_blog:hover .blog_img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .single_blog:last-child {
@@ -530,5 +530,63 @@ body {
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.contact-bottom {
+  margin-top: 50px;
+}
+
+.contact-bottom .contact-form {
+  float: left;
+  width: 700px;
+  margin-right: 50px;
+}
+
+.contact-bottom .contact-form input,
+.contact-bottom .contact-form textarea {
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-bottom .contact-form input [type="submit"] {
+  background-color: #153084;
+  width: auto;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-bottom .contact-form input [type="submit"]:hover {
+  background-color: #333;
+}
+
+.contact-bottom .contact-map {
+  float: left;
+  width: 450px;
+}
+
+.contact-bottom .contact-map iframe {
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  padding: 3px;
+  height: 270px;
+}
+
+.footer-area {
+  background-color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-area p {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
