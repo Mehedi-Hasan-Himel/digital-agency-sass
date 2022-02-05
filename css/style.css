@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main {
@@ -37,7 +37,7 @@ ul {
 .bg {
   background-position: center;
   -webkit-box-sizing: cover;
-  box-sizing: cover;
+          box-sizing: cover;
   position: relative;
   z-index: 2;
 }
@@ -110,7 +110,7 @@ ul {
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%);
-  transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .section_pera {
@@ -462,7 +462,7 @@ body {
 
 .single_blog:hover .blog_img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .single_blog:last-child {
@@ -578,6 +578,10 @@ body {
   border: 1px solid #f2f2f2;
   padding: 3px;
   height: 270px;
+}
+
+.contact-area {
+  height: 860px;
 }
 
 .footer-area {
