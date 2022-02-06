@@ -517,8 +517,8 @@ ul {
   background-size: cover;
   background-position: center;
   height: 250px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .single_blog .blog_content {
@@ -598,7 +598,10 @@ ul {
 }
 
 .contact-bottom .contact-form #submit:hover {
-  background-color: #333;
+  background-color: transparent;
+  color: #153084;
+  border: 2px solid #007bff;
+  font-weight: bold;
 }
 
 .contact-map {

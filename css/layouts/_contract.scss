@@ -32,9 +32,8 @@
       padding: 10px;
       margin-bottom: 10px;
     }
-   
 
-    #submit{
+    #submit {
       background-color: $primary_color;
       width: auto;
       padding: 10px 40px;
@@ -45,7 +44,10 @@
       cursor: pointer;
       transition: 0.3s;
       &:hover {
-        background-color: $black;
+        background-color: transparent;
+        color: $primary_color;
+        border: 2px solid $aqua_color;
+        font-weight: bold;
       }
     }
   }
