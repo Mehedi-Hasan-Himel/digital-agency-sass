@@ -1,4 +1,19 @@
+/*
+  typography start
+*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*
+  typography end
+*/
+/* 
+  common style code start
+*/
 * {
   margin: 0;
   padding: 0;
@@ -294,12 +309,12 @@ ul {
   text-align: justify;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-}
-
+/* 
+  common style code end
+*/
+/*
+  header style start
+*/
 .header_area {
   padding: 20px 0;
 }
@@ -339,6 +354,12 @@ body {
   color: #153084;
 }
 
+/*
+  header style end
+*/
+/*
+  banner style start
+*/
 .banner_content {
   color: #fff;
 }
@@ -352,6 +373,12 @@ body {
   margin: 30px auto;
 }
 
+/*
+  banner style end
+*/
+/*
+  about style start
+*/
 .single_about {
   border: 1px solid #ddd;
   padding: 40px 20px;
@@ -378,6 +405,12 @@ body {
   color: #333;
 }
 
+/*
+  about style end
+*/
+/*
+  services style start
+*/
 .services_area {
   background-color: #f2f2f2;
 }
@@ -423,6 +456,12 @@ body {
   margin: 20px 0;
 }
 
+/*
+  services style end
+*/
+/*
+  portfolio style start 
+*/
 .single_portfolio {
   height: 250px;
   background-size: cover;
@@ -451,6 +490,12 @@ body {
   text-transform: capitalize;
 }
 
+/*
+  portfolio style end 
+*/
+/*
+  blog style start
+*/
 .single_blog {
   float: left;
   width: 380px;
@@ -497,20 +542,10 @@ body {
 }
 
 /*
-.single_blog {
-  
-  }
-  .blog_img {
-    
-  }
-  .blog_content {
-   
-    }
-    p{
-       
-    }
-  }
-}
+  blog style start
+*/
+/*
+  contact style start
 */
 .contract-area {
   background-color: #f2f2f2;
@@ -584,6 +619,12 @@ body {
   height: 860px;
 }
 
+/*
+  contact style end
+*/
+/*
+  footer style start
+*/
 .footer-area {
   background-color: #333;
   text-align: center;
@@ -593,4 +634,8 @@ body {
 .footer-area p {
   color: #fff;
 }
+
+/*
+  footer style end
+*/
 /*# sourceMappingURL=style.css.map */
