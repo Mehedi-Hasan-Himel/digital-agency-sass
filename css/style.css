@@ -397,7 +397,7 @@ body {
 }
 
 .single_service:hover i {
-  background-color: #153084;
+  background-color: #007bff;
   color: #fff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
