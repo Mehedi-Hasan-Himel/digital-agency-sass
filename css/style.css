@@ -83,17 +83,16 @@ ul {
   background-color: #153084;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border: 2px solid #153084;
 }
 
 .btn.box_btn:hover {
   background-color: transparent;
-  border: 2px solid #153084;
-  padding: 8px 40px;
 }
 
 .btn.border_btn {
   border: 2px solid #153084;
-  padding: 8px 40px;
+  padding: 10px 40px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -585,30 +584,29 @@ ul {
   margin-bottom: 10px;
 }
 
-.contact-bottom .contact-form input [type="submit"] {
+.contact-bottom .contact-form #submit {
   background-color: #153084;
   width: auto;
   padding: 10px 40px;
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: bold;
   color: #fff;
-  border: 0;
+  border-radius: 30px;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.contact-bottom .contact-form input [type="submit"]:hover {
+.contact-bottom .contact-form #submit:hover {
   background-color: #333;
 }
 
-.contact-bottom .contact-map {
+.contact-map {
   float: left;
   width: 450px;
 }
 
-.contact-bottom .contact-map iframe {
+.contact-map iframe {
   width: 100%;
   border: 1px solid #f2f2f2;
   padding: 3px;

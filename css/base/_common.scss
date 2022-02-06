@@ -71,15 +71,15 @@ ul {
   &.box_btn {
     background-color: $primary_color;
     transition: 0.3s;
+    border: 2px solid $primary_color;
+
     &:hover {
       background-color: transparent;
-      border: 2px solid $primary_color;
-      padding: 8px 40px;
     }
   }
   &.border_btn {
     border: 2px solid $primary_color;
-    padding: 8px 40px;
+    padding: 10px 40px;
     transition: 0.3s;
     &:hover {
       background-color: $primary_color;
